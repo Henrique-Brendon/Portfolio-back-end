@@ -23,6 +23,10 @@ public class User implements Serializable{
     private String message;
     private Instant messageDate;
 
+    public User() {
+    
+    }
+
     public User(Long id, String name, String email, String phone, String message, Instant messageDate) {
         this.id = id;
         this.name = name;
